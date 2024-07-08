@@ -1,2 +1,31 @@
 ->Go to EXPRESS site
 ->Get Started
+TO START BACKEND
+-> npm init -y [-y gives yes to all]
+
+->Go to Express official Page[documentation]
+->check for dependencies if installed or not
+1.const app itself helps us to use a lot of stuff
+
+->To run use [npm run start]
+-> '/login' in this / is very imp
+
+2.To update changes you can restart the server use "ctrl+c" to stop the server and start again 
+->To directly restart the server use nodemon
+  in package.json
+--------------------------------------
+"scripts": {
+    "start": "nodemon index.js"
+  },
+--------------------------------------
+
+3. To check backend 
+ =>http://localhost:3000/login 
+4.To protect sensitive information we use 
+ "dotenv" [npm install dotenv or npm i dotenv]
+=>Go to dotenv site to learn documentation 
+  and usage 
+  
+5.https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Windows-Example[to configure git on windows] Already done at this point 
+
+6.To put the code in production use "DigitalOcean" [Didn't use]
